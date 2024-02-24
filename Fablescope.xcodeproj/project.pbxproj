@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B9FBE62B88D6D00019A9FB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FBE52B88D6D00019A9FB /* App.swift */; };
+		20B9FBEA2B88D6D10019A9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9FBE92B88D6D10019A9FB /* Assets.xcassets */; };
+		20B9FBED2B88D6D10019A9FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9FBEC2B88D6D10019A9FB /* Preview Assets.xcassets */; };
+		20B9FBF72B88D6D20019A9FB /* FablescopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FBF62B88D6D20019A9FB /* FablescopeTests.swift */; };
+		20B9FC012B88D6D20019A9FB /* FablescopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC002B88D6D20019A9FB /* FablescopeUITests.swift */; };
+		20B9FC032B88D6D20019A9FB /* FablescopeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC022B88D6D20019A9FB /* FablescopeUITestsLaunchTests.swift */; };
+		20B9FC112B88F6030019A9FB /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC102B88F6030019A9FB /* Form.swift */; };
+		20B9FC132B88F7D60019A9FB /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC122B88F7D60019A9FB /* Start.swift */; };
+		20B9FC172B88FC280019A9FB /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 20B9FC162B88FC280019A9FB /* SwiftUINavigation */; };
+		20B9FC192B88FC280019A9FB /* SwiftUINavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 20B9FC182B88FC280019A9FB /* SwiftUINavigationCore */; };
+		20B9FC1B2B88FE080019A9FB /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC1A2B88FE080019A9FB /* Read.swift */; };
+		20B9FC1F2B8955B60019A9FB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC1E2B8955B60019A9FB /* Theme.swift */; };
+		20B9FC292B8969D00019A9FB /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC282B8969D00019A9FB /* APIModels.swift */; };
+		20B9FC2B2B896B070019A9FB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC2A2B896B070019A9FB /* APIClient.swift */; };
+		20B9FC2D2B89720C0019A9FB /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC2C2B89720C0019A9FB /* ErrorView.swift */; };
+		20B9FC2F2B8975270019A9FB /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC2E2B8975270019A9FB /* MainButton.swift */; };
+		20B9FC312B897ED30019A9FB /* ScaledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9FC302B897ED30019A9FB /* ScaledButtonStyle.swift */; };
+		20B9FC332B8A711E0019A9FB /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 20B9FC322B8A711E0019A9FB /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20B9FBF32B88D6D20019A9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B9FBDA2B88D6D00019A9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B9FBE12B88D6D00019A9FB;
+			remoteInfo = Fablescope;
+		};
+		20B9FBFD2B88D6D20019A9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B9FBDA2B88D6D00019A9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B9FBE12B88D6D00019A9FB;
+			remoteInfo = Fablescope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20B9FBE22B88D6D00019A9FB /* Fablescope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fablescope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B9FBE52B88D6D00019A9FB /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		20B9FBE92B88D6D10019A9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20B9FBEC2B88D6D10019A9FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20B9FBF22B88D6D20019A9FB /* FablescopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FablescopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B9FBF62B88D6D20019A9FB /* FablescopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FablescopeTests.swift; sourceTree = "<group>"; };
+		20B9FBFC2B88D6D20019A9FB /* FablescopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FablescopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B9FC002B88D6D20019A9FB /* FablescopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FablescopeUITests.swift; sourceTree = "<group>"; };
+		20B9FC022B88D6D20019A9FB /* FablescopeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FablescopeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20B9FC102B88F6030019A9FB /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		20B9FC122B88F7D60019A9FB /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		20B9FC1A2B88FE080019A9FB /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
+		20B9FC1E2B8955B60019A9FB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		20B9FC282B8969D00019A9FB /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		20B9FC2A2B896B070019A9FB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		20B9FC2C2B89720C0019A9FB /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		20B9FC2E2B8975270019A9FB /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		20B9FC302B897ED30019A9FB /* ScaledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledButtonStyle.swift; sourceTree = "<group>"; };
+		20B9FC322B8A711E0019A9FB /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B9FBDF2B88D6D00019A9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9FC172B88FC280019A9FB /* SwiftUINavigation in Frameworks */,
+				20B9FC192B88FC280019A9FB /* SwiftUINavigationCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9FBEF2B88D6D20019A9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9FBF92B88D6D20019A9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B9FBD92B88D6D00019A9FB = {
+			isa = PBXGroup;
+			children = (
+				20B9FBE42B88D6D00019A9FB /* Fablescope */,
+				20B9FBF52B88D6D20019A9FB /* FablescopeTests */,
+				20B9FBFF2B88D6D20019A9FB /* FablescopeUITests */,
+				20B9FBE32B88D6D00019A9FB /* Products */,
+				20B9FC152B88FC280019A9FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20B9FBE32B88D6D00019A9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FBE22B88D6D00019A9FB /* Fablescope.app */,
+				20B9FBF22B88D6D20019A9FB /* FablescopeTests.xctest */,
+				20B9FBFC2B88D6D20019A9FB /* FablescopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B9FBE42B88D6D00019A9FB /* Fablescope */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FC342B8A77380019A9FB /* Support */,
+				20B9FC272B8965900019A9FB /* API */,
+				20B9FC1D2B8955A20019A9FB /* Design */,
+				20B9FC1C2B8955810019A9FB /* Features */,
+				20B9FBE52B88D6D00019A9FB /* App.swift */,
+				20B9FBEB2B88D6D10019A9FB /* Preview Content */,
+			);
+			path = Fablescope;
+			sourceTree = "<group>";
+		};
+		20B9FBEB2B88D6D10019A9FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FBEC2B88D6D10019A9FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20B9FBF52B88D6D20019A9FB /* FablescopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FBF62B88D6D20019A9FB /* FablescopeTests.swift */,
+			);
+			path = FablescopeTests;
+			sourceTree = "<group>";
+		};
+		20B9FBFF2B88D6D20019A9FB /* FablescopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FC002B88D6D20019A9FB /* FablescopeUITests.swift */,
+				20B9FC022B88D6D20019A9FB /* FablescopeUITestsLaunchTests.swift */,
+			);
+			path = FablescopeUITests;
+			sourceTree = "<group>";
+		};
+		20B9FC152B88FC280019A9FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20B9FC1C2B8955810019A9FB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FC102B88F6030019A9FB /* Form.swift */,
+				20B9FC122B88F7D60019A9FB /* Start.swift */,
+				20B9FC1A2B88FE080019A9FB /* Read.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		20B9FC1D2B8955A20019A9FB /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FC1E2B8955B60019A9FB /* Theme.swift */,
+				20B9FC2C2B89720C0019A9FB /* ErrorView.swift */,
+				20B9FC2E2B8975270019A9FB /* MainButton.swift */,
+				20B9FC302B897ED30019A9FB /* ScaledButtonStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		20B9FC272B8965900019A9FB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FC282B8969D00019A9FB /* APIModels.swift */,
+				20B9FC2A2B896B070019A9FB /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		20B9FC342B8A77380019A9FB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				20B9FBE92B88D6D10019A9FB /* Assets.xcassets */,
+				20B9FC322B8A711E0019A9FB /* Localizable.xcstrings */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B9FBE12B88D6D00019A9FB /* Fablescope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B9FC062B88D6D20019A9FB /* Build configuration list for PBXNativeTarget "Fablescope" */;
+			buildPhases = (
+				20B9FBDE2B88D6D00019A9FB /* Sources */,
+				20B9FBDF2B88D6D00019A9FB /* Frameworks */,
+				20B9FBE02B88D6D00019A9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fablescope;
+			packageProductDependencies = (
+				20B9FC162B88FC280019A9FB /* SwiftUINavigation */,
+				20B9FC182B88FC280019A9FB /* SwiftUINavigationCore */,
+			);
+			productName = Fablescope;
+			productReference = 20B9FBE22B88D6D00019A9FB /* Fablescope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20B9FBF12B88D6D20019A9FB /* FablescopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B9FC092B88D6D20019A9FB /* Build configuration list for PBXNativeTarget "FablescopeTests" */;
+			buildPhases = (
+				20B9FBEE2B88D6D20019A9FB /* Sources */,
+				20B9FBEF2B88D6D20019A9FB /* Frameworks */,
+				20B9FBF02B88D6D20019A9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B9FBF42B88D6D20019A9FB /* PBXTargetDependency */,
+			);
+			name = FablescopeTests;
+			productName = FablescopeTests;
+			productReference = 20B9FBF22B88D6D20019A9FB /* FablescopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20B9FBFB2B88D6D20019A9FB /* FablescopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B9FC0C2B88D6D20019A9FB /* Build configuration list for PBXNativeTarget "FablescopeUITests" */;
+			buildPhases = (
+				20B9FBF82B88D6D20019A9FB /* Sources */,
+				20B9FBF92B88D6D20019A9FB /* Frameworks */,
+				20B9FBFA2B88D6D20019A9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B9FBFE2B88D6D20019A9FB /* PBXTargetDependency */,
+			);
+			name = FablescopeUITests;
+			productName = FablescopeUITests;
+			productReference = 20B9FBFC2B88D6D20019A9FB /* FablescopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B9FBDA2B88D6D00019A9FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					20B9FBE12B88D6D00019A9FB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					20B9FBF12B88D6D20019A9FB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 20B9FBE12B88D6D00019A9FB;
+					};
+					20B9FBFB2B88D6D20019A9FB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 20B9FBE12B88D6D00019A9FB;
+					};
+				};
+			};
+			buildConfigurationList = 20B9FBDD2B88D6D00019A9FB /* Build configuration list for PBXProject "Fablescope" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = 20B9FBD92B88D6D00019A9FB;
+			packageReferences = (
+				20B9FC142B88FBF00019A9FB /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+			);
+			productRefGroup = 20B9FBE32B88D6D00019A9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B9FBE12B88D6D00019A9FB /* Fablescope */,
+				20B9FBF12B88D6D20019A9FB /* FablescopeTests */,
+				20B9FBFB2B88D6D20019A9FB /* FablescopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B9FBE02B88D6D00019A9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9FBED2B88D6D10019A9FB /* Preview Assets.xcassets in Resources */,
+				20B9FBEA2B88D6D10019A9FB /* Assets.xcassets in Resources */,
+				20B9FC332B8A711E0019A9FB /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9FBF02B88D6D20019A9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9FBFA2B88D6D20019A9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B9FBDE2B88D6D00019A9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9FC132B88F7D60019A9FB /* Start.swift in Sources */,
+				20B9FC112B88F6030019A9FB /* Form.swift in Sources */,
+				20B9FC2B2B896B070019A9FB /* APIClient.swift in Sources */,
+				20B9FC2F2B8975270019A9FB /* MainButton.swift in Sources */,
+				20B9FC292B8969D00019A9FB /* APIModels.swift in Sources */,
+				20B9FC1F2B8955B60019A9FB /* Theme.swift in Sources */,
+				20B9FC1B2B88FE080019A9FB /* Read.swift in Sources */,
+				20B9FC2D2B89720C0019A9FB /* ErrorView.swift in Sources */,
+				20B9FBE62B88D6D00019A9FB /* App.swift in Sources */,
+				20B9FC312B897ED30019A9FB /* ScaledButtonStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9FBEE2B88D6D20019A9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9FBF72B88D6D20019A9FB /* FablescopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9FBF82B88D6D20019A9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9FC032B88D6D20019A9FB /* FablescopeUITestsLaunchTests.swift in Sources */,
+				20B9FC012B88D6D20019A9FB /* FablescopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B9FBF42B88D6D20019A9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B9FBE12B88D6D00019A9FB /* Fablescope */;
+			targetProxy = 20B9FBF32B88D6D20019A9FB /* PBXContainerItemProxy */;
+		};
+		20B9FBFE2B88D6D20019A9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B9FBE12B88D6D00019A9FB /* Fablescope */;
+			targetProxy = 20B9FBFD2B88D6D20019A9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20B9FC042B88D6D20019A9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20B9FC052B88D6D20019A9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20B9FC072B88D6D20019A9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fablescope/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.Fablescope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20B9FC082B88D6D20019A9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fablescope/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.Fablescope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20B9FC0A2B88D6D20019A9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FablescopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fablescope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fablescope";
+			};
+			name = Debug;
+		};
+		20B9FC0B2B88D6D20019A9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FablescopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fablescope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fablescope";
+			};
+			name = Release;
+		};
+		20B9FC0D2B88D6D20019A9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FablescopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fablescope;
+			};
+			name = Debug;
+		};
+		20B9FC0E2B88D6D20019A9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FablescopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fablescope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B9FBDD2B88D6D00019A9FB /* Build configuration list for PBXProject "Fablescope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9FC042B88D6D20019A9FB /* Debug */,
+				20B9FC052B88D6D20019A9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B9FC062B88D6D20019A9FB /* Build configuration list for PBXNativeTarget "Fablescope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9FC072B88D6D20019A9FB /* Debug */,
+				20B9FC082B88D6D20019A9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B9FC092B88D6D20019A9FB /* Build configuration list for PBXNativeTarget "FablescopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9FC0A2B88D6D20019A9FB /* Debug */,
+				20B9FC0B2B88D6D20019A9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B9FC0C2B88D6D20019A9FB /* Build configuration list for PBXNativeTarget "FablescopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9FC0D2B88D6D20019A9FB /* Debug */,
+				20B9FC0E2B88D6D20019A9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20B9FC142B88FBF00019A9FB /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20B9FC162B88FC280019A9FB /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20B9FC142B88FBF00019A9FB /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+		20B9FC182B88FC280019A9FB /* SwiftUINavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20B9FC142B88FBF00019A9FB /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigationCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 20B9FBDA2B88D6D00019A9FB /* Project object */;
+}
